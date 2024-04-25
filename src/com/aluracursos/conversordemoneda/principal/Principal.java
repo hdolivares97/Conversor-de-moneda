@@ -19,9 +19,10 @@ public class Principal {
                 menu.mostrarMenu();
                 opcionSeleccionada = Integer.valueOf(in.nextLine());
                 if (opcionSeleccionada == 7) {
+                    System.out.println("Finalizando la aplicación...");
                     break;
                 } else if (opcionSeleccionada > 7) {
-                    System.out.println("No existe la opcion seleccionada.");
+                    System.out.println("No existe la opcion seleccionada.\n");
                 } else {
                     System.out.println("Ingresa el valor que deseas convertir: ");
                     double valorAconvertir = Double.valueOf(in.nextLine());
